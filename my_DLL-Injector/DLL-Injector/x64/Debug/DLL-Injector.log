@@ -1,0 +1,16 @@
+﻿  DLL-Injector.cpp
+C:\Users\aha31\Desktop\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(30,20): error C2664: 'int _stricmp(const char *,const char *)': 인수 1을(를) 'WCHAR [260]'에서 'const char *'(으)로 변환할 수 없습니다.
+C:\Users\aha31\Desktop\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(30,33): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(189,22): message : '_stricmp' 선언을 참조하십시오.
+C:\Users\aha31\Desktop\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(33,21): warning C4477: 'fprintf' : 서식 문자열 '%lX'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'PROCESSENTRY32W'입니다.
+C:\Users\aha31\Desktop\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(68,5): warning C4477: 'fprintf' : 서식 문자열 '%lX'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'HANDLE'입니다.
+C:\Users\aha31\Desktop\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(68,5): warning C4313: 'fprintf': 서식 문자열의 '%X'이(가) 인수 1('HANDLE' 형식)과(와) 충돌합니다.
+C:\Users\aha31\Desktop\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(83,8): error C2664: 'BOOL PathFileExistsW(LPCWSTR)': 인수 1을(를) 'const _Elem *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\aha31\Desktop\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(83,37): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(561,21): message : 'PathFileExistsW' 선언을 참조하십시오.
+C:\Users\aha31\Desktop\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(93,9): warning C4474: 'fprintf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\aha31\Desktop\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(93,9): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.

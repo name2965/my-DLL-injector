@@ -1,0 +1,4 @@
+﻿  utils.cpp
+C:\Users\aha31\Desktop\Dll-Injector-master\DLL-Injector\utils.cpp(88,41): error C2664: 'HMODULE LoadLibraryA(LPCSTR)': 인수 1을(를) 'const wchar_t [13]'에서 'LPCSTR'(으)로 변환할 수 없습니다.
+C:\Users\aha31\Desktop\Dll-Injector-master\DLL-Injector\utils.cpp(88,26): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(657,1): message : 'LoadLibraryA' 선언을 참조하십시오.
