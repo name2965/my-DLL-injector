@@ -1,6 +1,6 @@
 # DLL-injector
 
-워게임을 풀면서 공부해본 DLL 인젝션 기법을 기반으로 간단한 DLL-injector를 만들어봤습니다.
+워게임을 풀면서 공부해본 DLL 인젝션 기법을 기반으로 DLL-injector를 직접 구현해봤습니다.
 
 제가 풀었던 문제에서는 굳이 DLL-injector가 필요없긴 했지만
 
